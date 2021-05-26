@@ -6,7 +6,7 @@ import ListRepositories from "../../../../presentation/pages/UserRepositories";
 export const ListRepositoriesFactory = () => {
   const axiosHttpClient = new AxiosHttpClient();
   const githubGetRepositories = new GithubGetRepositories(
-    "https://api.github.com/users",
+    "users",
     axiosHttpClient
   );
 
